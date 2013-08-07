@@ -1,5 +1,5 @@
 ProductAdvertisingServiceBundle
-
+===============================
 USAGE MEANS SAUSAGE:
 
 0) Register the bundle! $bundles[] = new RobertoDormePoco\ProductAdvertisingServiceBundle\RobertoDormePocoProductAdvertisingServiceBundle()
