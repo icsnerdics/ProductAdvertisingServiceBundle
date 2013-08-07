@@ -1,0 +1,8 @@
+parameters:
+    product_advertising_service.class: RobertoDormePoco\ProductAdvertisingServiceBundle\AWSECommerceService\ServiceManager
+
+services:
+
+    aws_pas_manager:
+        class: "%product_advertising_service.class%"
+        arguments: ["ItemAttributes, Offers, Images"] # ResponseGroup
